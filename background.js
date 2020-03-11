@@ -41,8 +41,7 @@ browser.contextMenus.onClicked.addListener(function(info, tab){
                        lorem[9] = "Id faucibus nisl tincidunt eget nullam non nisi."; 
                            
                        var text = lorem[Math.floor(Math.random() * 10)];
-                       console.log(text);
-                       document.activeElement.value = text;`
+                       document.activeElement.value = document.activeElement.value + " " + text;`
             });
             break;
         case "inputParagraph":
@@ -61,8 +60,7 @@ browser.contextMenus.onClicked.addListener(function(info, tab){
                        lorem[9] = "Defacto lingo est igpay atinlay. Marquee selectus non provisio incongruous feline nolo contendre. Gratuitous octopus niacin, sodium glutimate. Quote meon an estimate et non interruptus stadium. Sic tempus fugit esperanto hiccup estrogen. Glorious baklava ex librus hup hey ad infinitum. Non sequitur condominium facile et geranium incognito. Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay atinlay. Gratuitous octopus niacin, sodium glutimate. ";
                        
                        var text = lorem[Math.floor(Math.random() * 10)];
-                       console.log(text);
-                       document.activeElement.value = text;`
+                       document.activeElement.value = document.activeElement.value + " " + text;`
             });
             break;
         case "inputSlipsum":
@@ -80,8 +78,7 @@ browser.contextMenus.onClicked.addListener(function(info, tab){
                        slipsum[9] = "Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit. ";
                        
                        var text = slipsum[Math.floor(Math.random() * 10)];
-                       console.log(text);
-                       document.activeElement.value = text;`
+                       document.activeElement.value = document.activeElement.value + " " + text;`
             });
             break;
     }
