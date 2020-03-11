@@ -50,8 +50,9 @@ function fillIn(type, element){
         lorem[9] = "Defacto lingo est igpay atinlay. Marquee selectus non provisio incongruous feline nolo contendre. Gratuitous octopus niacin, sodium glutimate. Quote meon an estimate et non interruptus stadium. Sic tempus fugit esperanto hiccup estrogen. Glorious baklava ex librus hup hey ad infinitum. Non sequitur condominium facile et geranium incognito. Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay atinlay. Gratuitous octopus niacin, sodium glutimate. ";
     }
 
-    console.log(lorem[Math.floor(Math.random() * 10)]);
-    element.value = lorem[Math.floor(Math.random() * 10)];
+    var text = lorem[Math.floor(Math.random() * 10)];
+    console.log(text);
+    element.value = text;
 
 }
 
@@ -69,8 +70,9 @@ function slipsum(element){ // Motherfucker.
     slipsum[8] = "Look, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into a glass motherfuckin' house, fuckin' up the way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass, 'cause I'll kill the motherfucker, know what I'm sayin'?";
     slipsum[9] = "Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit. ";
 
-    console.log(element.value = slipsum[Math.floor(Math.random() * 10)]);
-    element.value = slipsum[Math.floor(Math.random() * 10)];
+    var text = slipsum[Math.floor(Math.random() * 10)];
+    console.log(text);
+    element.value = text;
 }
 
 
@@ -81,15 +83,12 @@ browser.contextMenus.onClicked.addListener(function(info, tab){
     switch(info.menuItemId){
         case "inputSentence":
             fillIn(1, document.activeElement);
-            alert("test!");
             break;
         case "inputParagraph":
             fillIn(2, document.activeElement);
-            alert("test!");
             break;
         case "inputSlipsum":
             slipsum(document.activeElement);
-            alert("test!");
             break;
     }
 });
