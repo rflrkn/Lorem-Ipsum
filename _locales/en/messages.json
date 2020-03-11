@@ -1,0 +1,22 @@
+{
+  "extensionName": {
+    "message": "Lorem Ipsum",
+    "description": "Lorem Ipsum dolor sit amet."
+  },
+  "extensionDescription": {
+    "message": "This extension allows you to easily fill in lorem ipsum placeholder texts into input fields.",
+    "description": "This extension allows you to easily fill in lorem ipsum placeholder texts into input fields."
+  },
+  "menuItemSentence": {
+    "message": "Sentence",
+    "description": "Generates a placeholder sentence."
+  },
+  "menuItemParagraph": {
+    "message": "Paragraph",
+    "description": "Generates a placeholder paragraph."
+  },
+  "menuItemSlipsum": {
+    "message": "Samuel L. Jackson.",
+    "description": "Motherfucker."
+  }
+}
