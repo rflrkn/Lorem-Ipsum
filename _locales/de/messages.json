@@ -1,0 +1,22 @@
+{
+  "extensionName": {
+    "message": "Lorem Ipsum",
+    "description": "Lorem Ipsum dolor sit amet."
+  },
+  "extensionDescription": {
+    "message": "Mit dieser Erweiterung kannst du in Sekundenschnelle Input-Felder mit Lorem Ipsum-Platzhaltertext füllen!",
+    "description": "Mit dieser Erweiterung kannst du in Sekundenschnelle Input-Felder mit Lorem Ipsum-Platzhaltertext füllen!"
+  },
+  "menuItemSentence": {
+    "message": "Satz",
+    "description": "Generiert einen einzelnen Platzhaltersatz."
+  },
+  "menuItemParagraph": {
+    "message": "Absatz",
+    "description": "Generiert einen gesamten Platzhalterabsatz."
+  },
+  "menuItemSlipsum": {
+    "message": "Samuel L. Jackson.",
+    "description": "Motherfucker."
+  }
+}
