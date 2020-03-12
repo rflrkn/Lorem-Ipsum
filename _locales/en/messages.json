@@ -16,7 +16,15 @@
     "description": "Generates a placeholder paragraph."
   },
   "menuItemSlipsum": {
-    "message": "Samuel L. Jackson.",
+    "message": "Samuel L. Jackson",
     "description": "Motherfucker."
+  },
+  "menuItemTripsum": {
+    "message": "Donald J. Trump",
+    "description": "The best placeholder text. Ever."
+  },
+  "menuItemCorporate": {
+    "message": "Corporate-Modus",
+    "description": "Extremly leightweight. Super flexible. So wow."
   }
 }
